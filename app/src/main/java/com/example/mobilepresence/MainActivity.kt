@@ -12,12 +12,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        firstFunction()
+        sample()
     }
 
-    fun firstFunction(){
-        binding.btnClickMe.setOnClickListener {
-            Toast.makeText(applicationContext, "Mobile Presence Remake", Toast.LENGTH_SHORT).show()
-        }
-    }
+    fun sample(){}
 }
